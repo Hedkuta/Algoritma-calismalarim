@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="KUTAY"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-05 05:50:11 &#214;S"/>
+        <attribute name="created" value="S1VUQVk7TEFQVE9QLVRTRENTNElMOzIwMjItMDktMDU7MDU6NDY6MDkgw5ZTOzI5MjE="/>
+        <attribute name="edited" value="S1VUQVk7TEFQVE9QLVRTRENTNElMOzIwMjItMDktMDU7MDU6NTA6MTEgw5ZTOzE7MzAxNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="vize, final, ortalama" type="Real" array="False" size=""/>
+            <output expression="&quot;L&#252;tfen Vize Notunuzu Giriniz.&quot;" newline="True"/>
+            <input variable="vize"/>
+            <output expression="&quot;L&#252;tfen Final Notunuzu Giriniz.&quot;" newline="True"/>
+            <input variable="final"/>
+            <assign variable="ortalama" expression="vize * 30 / 100  + final * 70 / 100"/>
+            <output expression="&quot;Ortalaman&#305;z: &quot; &amp; ortalama" newline="True"/>
+            <if expression="final &gt;= 50 &amp;&amp; ortalama &gt;= 50">
+                <then>
+                    <output expression="&quot;Ge&#231;tiniz&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Kald&#305;n&#305;z&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

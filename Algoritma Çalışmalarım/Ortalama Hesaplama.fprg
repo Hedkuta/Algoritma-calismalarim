@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="KUTAY"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-04 05:23:56 &#214;S"/>
+        <attribute name="created" value="S1VUQVk7TEFQVE9QLVRTRENTNElMOzIwMjItMDktMDQ7MDU6MTg6NTkgw5ZTOzI5MjQ="/>
+        <attribute name="edited" value="S1VUQVk7TEFQVE9QLVRTRENTNElMOzIwMjItMDktMDQ7MDU6MjM6NTYgw5ZTOzE7MzAyNQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi1, sayi2, sayi3, sayi4, sayi5" type="Integer" array="False" size=""/>
+            <declare name="ortalama" type="Real" array="False" size=""/>
+            <output expression="&quot;Birinci Say&#305;y&#305; Giriniz&quot;" newline="True"/>
+            <input variable="sayi1"/>
+            <output expression="&quot;&#304;kinci Say&#305;y&#305; Giriniz&quot;" newline="True"/>
+            <input variable="sayi2"/>
+            <output expression="&quot;&#220;&#231;&#252;nc&#252; Say&#305;y&#305; Giriniz&quot;" newline="True"/>
+            <input variable="sayi3"/>
+            <output expression="&quot;D&#246;rd&#252;nc&#252; Say&#305;y&#305; Giriniz&quot;" newline="True"/>
+            <input variable="sayi4"/>
+            <output expression="&quot;Be&#351;inci Say&#305;y&#305; Giriniz&quot;" newline="True"/>
+            <input variable="sayi5"/>
+            <assign variable="ortalama" expression="(sayi1 + sayi2 + sayi3 + sayi4 + sayi5) / 5"/>
+            <output expression="&quot;Girdi&#287;iniz Be&#351; Say&#305;n&#305;n Ortalamas&#305;: &quot; &amp; ortalama" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

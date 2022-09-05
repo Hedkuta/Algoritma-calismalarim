@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="KUTAY"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-05 07:13:49 &#214;S"/>
+        <attribute name="created" value="S1VUQVk7TEFQVE9QLVRTRENTNElMOzIwMjItMDktMDU7MDc6MDc6MzMgw5ZTOzI5MTc="/>
+        <attribute name="edited" value="S1VUQVk7TEFQVE9QLVRTRENTNElMOzIwMjItMDktMDU7MDc6MTM6NDkgw5ZTOzE7MzAyOQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi" type="Real" array="False" size=""/>
+            <output expression="&quot;L&#252;tfen 100'l&#252;k sistemdeki notunuzu giriniz.&quot;" newline="True"/>
+            <input variable="sayi"/>
+            <if expression="sayi &gt;= 85 &amp;&amp; sayi &lt;= 100">
+                <then>
+                    <output expression="&quot;5&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="sayi &gt;= 70 &amp;&amp; sayi &lt;= 84.99">
+                        <then>
+                            <output expression="&quot;4&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="sayi &gt;= 60 &amp;&amp; sayi &lt; 70">
+                                <then>
+                                    <output expression="&quot;3&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="sayi &gt;= 45 &amp;&amp; sayi &lt; 60">
+                                        <then>
+                                            <output expression="&quot;2&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="sayi &gt;= 0 &amp;&amp; sayi &lt; 45">
+                                                <then>
+                                                    <output expression="&quot;1&quot;" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <output expression="&quot;Hatal&#305; Say&#305; Girdiniz&quot;" newline="True"/>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="KUTAY"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-04 04:49:19 &#214;S"/>
+        <attribute name="created" value="S1VUQVk7TEFQVE9QLVRTRENTNElMOzIwMjItMDktMDQ7MDQ6MjQ6Mjkgw5ZTOzI5MTc="/>
+        <attribute name="edited" value="S1VUQVk7TEFQVE9QLVRTRENTNElMOzIwMjItMDktMDQ7MDQ6NDk6MTkgw5ZTOzU7MzAzNQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="yar&#305;&#199;ap, alan" type="Real" array="False" size=""/>
+            <output expression="&quot;Yar&#305;&#231;ap&#305; Giriniz&quot;" newline="True"/>
+            <input variable="yar&#305;&#199;ap"/>
+            <assign variable="alan" expression="3.14 * yar&#305;&#199;ap * yar&#305;&#199;ap"/>
+            <output expression="&quot;Dairenin Alan&#305;: &quot; &amp; alan" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

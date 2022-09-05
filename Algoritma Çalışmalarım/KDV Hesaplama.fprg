@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="KUTAY"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-04 05:34:21 &#214;S"/>
+        <attribute name="created" value="S1VUQVk7TEFQVE9QLVRTRENTNElMOzIwMjItMDktMDQ7MDU6MjQ6MjYgw5ZTOzI5MTU="/>
+        <attribute name="edited" value="S1VUQVk7TEFQVE9QLVRTRENTNElMOzIwMjItMDktMDQ7MDU6MzQ6MjEgw5ZTOzE7MzAxOQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="fiyat, tutar, kdv, oran" type="Real" array="False" size=""/>
+            <output expression="&quot;&#220;r&#252;n&#252;n Fiyat&#305;n&#305; Giriniz&quot;" newline="True"/>
+            <input variable="fiyat"/>
+            <output expression="&quot;&#220;r&#252;n&#252;n KDV Oran&#305;n&#305; Giriniz&quot;" newline="True"/>
+            <input variable="oran"/>
+            <assign variable="kdv" expression="fiyat * (oran/100)"/>
+            <assign variable="tutar" expression="fiyat + kdv"/>
+            <output expression="&quot;&#220;r&#252;n&#252;n KDV Dahil Fiyat&#305;: &quot; &amp; tutar &amp; &quot; KDV Fiyat&#305;: &quot; &amp; kdv" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

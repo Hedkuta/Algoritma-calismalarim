@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="KUTAY"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-04 06:02:57 &#214;S"/>
+        <attribute name="created" value="S1VUQVk7TEFQVE9QLVRTRENTNElMOzIwMjItMDktMDQ7MDU6NTg6NTAgw5ZTOzI5MTk="/>
+        <attribute name="edited" value="S1VUQVk7TEFQVE9QLVRTRENTNElMOzIwMjItMDktMDQ7MDY6MDI6NTcgw5ZTOzE7MzAyNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi" type="Integer" array="False" size=""/>
+            <output expression="&quot;L&#252;tfen say&#305;n&#305;z&#305; giriniz&quot;" newline="True"/>
+            <input variable="sayi"/>
+            <if expression="sayi == 0">
+                <then>
+                    <output expression="&quot;Say&#305;n&#305;z N&#246;tr&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="sayi &gt; 0">
+                        <then>
+                            <output expression="&quot;Say&#305;n&#305;z Pozitif&quot;" newline="True"/>
+                        </then>
+                        <else/>
+                    </if>
+                    <if expression="sayi &lt; 0">
+                        <then>
+                            <output expression="&quot;Say&#305;n&#305;z Negatif&quot;" newline="True"/>
+                        </then>
+                        <else/>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

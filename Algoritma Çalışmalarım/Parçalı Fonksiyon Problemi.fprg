@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="KUTAY"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-04 07:52:11 &#214;S"/>
+        <attribute name="created" value="S1VUQVk7TEFQVE9QLVRTRENTNElMOzIwMjItMDktMDQ7MDc6NDU6MDggw5ZTOzI5MjA="/>
+        <attribute name="edited" value="S1VUQVk7TEFQVE9QLVRTRENTNElMOzIwMjItMDktMDQ7MDc6NTI6MTEgw5ZTOzE7MzAyMA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, y" type="Real" array="False" size=""/>
+            <output expression="&quot;X De&#287;erini Giriniz&quot;" newline="True"/>
+            <input variable="x"/>
+            <if expression="x &lt; 2">
+                <then>
+                    <assign variable="y" expression="3 * x - 5"/>
+                </then>
+                <else>
+                    <if expression="x &gt;= 2 &amp;&amp; x &lt; 13">
+                        <then>
+                            <assign variable="y" expression="x + 7"/>
+                        </then>
+                        <else>
+                            <if expression="x &gt;=13">
+                                <then>
+                                    <assign variable="y" expression="7 * x + 9"/>
+                                </then>
+                                <else/>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="&quot;Fonksiyonun Sonucu: &quot; &amp; y" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="KUTAY"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-04 04:54:57 &#214;S"/>
+        <attribute name="created" value="S1VUQVk7TEFQVE9QLVRTRENTNElMOzIwMjItMDktMDQ7MDQ6MjQ6Mjkgw5ZTOzI5MTc="/>
+        <attribute name="edited" value="S1VUQVk7TEFQVE9QLVRTRENTNElMOzIwMjItMDktMDQ7MDQ6NTQ6NTcgw5ZTOzU7MzAzMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="uzunKenar, kisaKenar, cevre, alan" type="Integer" array="False" size=""/>
+            <output expression="&quot;K&#305;sakenar Uzunlu&#287;unu Giriniz.&quot;" newline="True"/>
+            <input variable="kisaKenar"/>
+            <output expression="&quot;Uzunkenar Uzunlu&#287;unu Giriniz&quot;" newline="True"/>
+            <input variable="uzunKenar"/>
+            <assign variable="cevre" expression="2 * (kisaKenar + uzunKenar)"/>
+            <output expression="&quot;Dikd&#246;rtgenin &#199;evre Uzunlu&#287;u: &quot; &amp; cevre" newline="True"/>
+            <assign variable="alan" expression="kisaKenar * uzunKenar"/>
+            <output expression="&quot;Dikd&#246;rgenin Alan&#305;: &quot; &amp; alan" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
